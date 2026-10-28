@@ -1,0 +1,47 @@
+# 이 파일은 '매크로 키보드 설정' 앱이 만든다. 직접 고치지 말고 앱에서 바꾼다.
+# 방향: 노브가 오른쪽, Layer 버튼이 위쪽. buttons는 위에서부터 3줄 × 왼쪽부터 4칸, knobs는 위·아래 순서.
+orientation: normal
+rows: 3
+columns: 4
+knobs: 2
+
+layers:
+  # 레이어 1: 코딩
+  - buttons:
+      - ["cmd-p", "cmd-shift-p", "cmd-z", "shift-cmd-z"]  # 파일 찾기 / 명령 팔레트 / 사이드바 / 터미널
+      - ["cmd-slash", "alt-shift-f", "f12", "cmd-d"]  # 주석 / 코드 정리 / 정의로 이동 / 같은 단어 선택
+      - ["cmd-c", "cmd-v", "alt-up", "alt-down"]  # 복사 / 붙여넣기 / 줄 위로 / 줄 아래로
+    knobs:
+      - ccw: "cmd-minus"  # 위 노브: 축소
+        press: "cmd-0"  # 원래 크기
+        cw: "cmd-equal"  # 확대
+      - ccw: "cmd-z"  # 아래 노브: 실행 취소
+        press: "cmd-s"  # 저장
+        cw: "cmd-shift-z"  # 다시 실행
+
+  # 레이어 2: 편집
+  - buttons:
+      - ["cmd-c", "cmd-v", "cmd-x", "cmd-a"]  # 복사 / 붙여넣기 / 잘라내기 / 전체 선택
+      - ["cmd-z", "cmd-shift-z", "cmd-s", "cmd-f"]  # 실행 취소 / 다시 실행 / 저장 / 찾기
+      - ["cmd-shift-4", "cmd-shift-5", "cmd-t", "cmd-tab"]  # 영역 캡처 / 화면 녹화 / 새 탭 / 직전 앱
+    knobs:
+      - ccw: "cmd-minus"  # 위 노브: 축소
+        press: "cmd-0"  # 원래 크기
+        cw: "cmd-equal"  # 확대
+      - ccw: "left"  # 아래 노브: 프레임 뒤로
+        press: "space"  # 재생/정지
+        cw: "right"  # 프레임 앞으로
+
+  # 레이어 3: 미디어·시스템 
+  - buttons:
+      - ["prev", "play", "next", "mute"]  # 이전 곡 / 재생/정지 / 다음 곡 / 음소거
+      - ["cmd-space", "ctrl-up", "ctrl-down", "i"]  # Spotlight / Mission Control / 앱 창 모아보기 / 화면축소
+      - ["ctrl-left", "ctrl-right", "cmd-c", "cmd-v"]  # 왼쪽 데스크톱 / 오른쪽 데스크톱 / cmd-C / cmd-V
+    knobs:
+      - ccw: "volumedown"  # 위 노브: 볼륨 작게
+        press: "play"  # 재생/정지
+        cw: "volumeup"  # 볼륨 크게
+      - ccw: "wheelup"  # 아래 노브: 스크롤 위
+        press: "click"  # 클릭
+        cw: "wheeldown"  # 스크롤 아래
+

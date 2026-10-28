@@ -1,0 +1,12 @@
+# 빌드 결과 (app/build.sh로 다시 만든다)
+*.app/
+
+# 다른 사람이 만든 키보드 도구 (README의 받는 법 참고)
+tool/
+
+# 개인 기록·사진·로컬 설정
+기록/
+사진/
+launcher.json
+
+.DS_Store

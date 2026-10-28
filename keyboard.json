@@ -1,0 +1,271 @@
+{
+  "layers" : [
+    {
+      "buttons" : [
+        [
+          {
+            "action" : "cmd-p",
+            "label" : "파일 찾기"
+          },
+          {
+            "action" : "cmd-shift-p",
+            "label" : "명령 팔레트"
+          },
+          {
+            "action" : "cmd-z",
+            "label" : "사이드바"
+          },
+          {
+            "action" : "shift-cmd-z",
+            "label" : "터미널"
+          }
+        ],
+        [
+          {
+            "action" : "cmd-slash",
+            "label" : "주석"
+          },
+          {
+            "action" : "alt-shift-f",
+            "label" : "코드 정리"
+          },
+          {
+            "action" : "f12",
+            "label" : "정의로 이동"
+          },
+          {
+            "action" : "cmd-d",
+            "label" : "같은 단어 선택"
+          }
+        ],
+        [
+          {
+            "action" : "cmd-c",
+            "label" : "복사"
+          },
+          {
+            "action" : "cmd-v",
+            "label" : "붙여넣기"
+          },
+          {
+            "action" : "alt-up",
+            "label" : "줄 위로"
+          },
+          {
+            "action" : "alt-down",
+            "label" : "줄 아래로"
+          }
+        ]
+      ],
+      "knobs" : [
+        {
+          "ccw" : {
+            "action" : "cmd-minus",
+            "label" : "축소"
+          },
+          "cw" : {
+            "action" : "cmd-equal",
+            "label" : "확대"
+          },
+          "press" : {
+            "action" : "cmd-0",
+            "label" : "원래 크기"
+          }
+        },
+        {
+          "ccw" : {
+            "action" : "cmd-z",
+            "label" : "실행 취소"
+          },
+          "cw" : {
+            "action" : "cmd-shift-z",
+            "label" : "다시 실행"
+          },
+          "press" : {
+            "action" : "cmd-s",
+            "label" : "저장"
+          }
+        }
+      ],
+      "name" : "코딩"
+    },
+    {
+      "buttons" : [
+        [
+          {
+            "action" : "cmd-c",
+            "label" : "복사"
+          },
+          {
+            "action" : "cmd-v",
+            "label" : "붙여넣기"
+          },
+          {
+            "action" : "cmd-x",
+            "label" : "잘라내기"
+          },
+          {
+            "action" : "cmd-a",
+            "label" : "전체 선택"
+          }
+        ],
+        [
+          {
+            "action" : "cmd-z",
+            "label" : "실행 취소"
+          },
+          {
+            "action" : "cmd-shift-z",
+            "label" : "다시 실행"
+          },
+          {
+            "action" : "cmd-s",
+            "label" : "저장"
+          },
+          {
+            "action" : "cmd-f",
+            "label" : "찾기"
+          }
+        ],
+        [
+          {
+            "action" : "cmd-shift-4",
+            "label" : "영역 캡처"
+          },
+          {
+            "action" : "cmd-shift-5",
+            "label" : "화면 녹화"
+          },
+          {
+            "action" : "cmd-t",
+            "label" : "새 탭"
+          },
+          {
+            "action" : "cmd-tab",
+            "label" : "직전 앱"
+          }
+        ]
+      ],
+      "knobs" : [
+        {
+          "ccw" : {
+            "action" : "cmd-minus",
+            "label" : "축소"
+          },
+          "cw" : {
+            "action" : "cmd-equal",
+            "label" : "확대"
+          },
+          "press" : {
+            "action" : "cmd-0",
+            "label" : "원래 크기"
+          }
+        },
+        {
+          "ccw" : {
+            "action" : "left",
+            "label" : "프레임 뒤로"
+          },
+          "cw" : {
+            "action" : "right",
+            "label" : "프레임 앞으로"
+          },
+          "press" : {
+            "action" : "space",
+            "label" : "재생\/정지"
+          }
+        }
+      ],
+      "name" : "편집"
+    },
+    {
+      "buttons" : [
+        [
+          {
+            "action" : "prev",
+            "label" : "이전 곡"
+          },
+          {
+            "action" : "play",
+            "label" : "재생\/정지"
+          },
+          {
+            "action" : "next",
+            "label" : "다음 곡"
+          },
+          {
+            "action" : "mute",
+            "label" : "음소거"
+          }
+        ],
+        [
+          {
+            "action" : "cmd-space",
+            "label" : "Spotlight"
+          },
+          {
+            "action" : "ctrl-up",
+            "label" : "Mission Control"
+          },
+          {
+            "action" : "ctrl-down",
+            "label" : "앱 창 모아보기"
+          },
+          {
+            "action" : "i",
+            "label" : "화면축소"
+          }
+        ],
+        [
+          {
+            "action" : "ctrl-left",
+            "label" : "왼쪽 데스크톱"
+          },
+          {
+            "action" : "ctrl-right",
+            "label" : "오른쪽 데스크톱"
+          },
+          {
+            "action" : "cmd-c",
+            "label" : "cmd-C"
+          },
+          {
+            "action" : "cmd-v",
+            "label" : "cmd-V"
+          }
+        ]
+      ],
+      "knobs" : [
+        {
+          "ccw" : {
+            "action" : "volumedown",
+            "label" : "볼륨 작게"
+          },
+          "cw" : {
+            "action" : "volumeup",
+            "label" : "볼륨 크게"
+          },
+          "press" : {
+            "action" : "play",
+            "label" : "재생\/정지"
+          }
+        },
+        {
+          "ccw" : {
+            "action" : "wheelup",
+            "label" : "스크롤 위"
+          },
+          "cw" : {
+            "action" : "wheeldown",
+            "label" : "스크롤 아래"
+          },
+          "press" : {
+            "action" : "click",
+            "label" : "클릭"
+          }
+        }
+      ],
+      "name" : "미디어·시스템 "
+    }
+  ]
+}
