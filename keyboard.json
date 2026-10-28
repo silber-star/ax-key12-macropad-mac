@@ -200,30 +200,30 @@
         ],
         [
           {
-            "action" : "cmd-space",
-            "label" : "Spotlight"
+            "action" : "ctrl-up",
+            "label" : "Mission Control"
           },
           {
             "action" : "ctrl-up",
             "label" : "Mission Control"
           },
           {
-            "action" : "ctrl-down",
-            "label" : "앱 창 모아보기"
+            "action" : "ctrl-left",
+            "label" : "화면 전환"
           },
           {
-            "action" : "i",
-            "label" : "화면축소"
+            "action" : "ctrl-right",
+            "label" : "화면 전환"
           }
         ],
         [
           {
-            "action" : "ctrl-left",
-            "label" : "왼쪽 데스크톱"
+            "action" : "ctrl-down",
+            "label" : "앱 창 모아보기"
           },
           {
-            "action" : "ctrl-right",
-            "label" : "오른쪽 데스크톱"
+            "action" : "cmd-a",
+            "label" : "cmd-A"
           },
           {
             "action" : "cmd-c",

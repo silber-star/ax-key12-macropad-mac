@@ -35,8 +35,8 @@ layers:
   # 레이어 3: 미디어·시스템 
   - buttons:
       - ["prev", "play", "next", "mute"]  # 이전 곡 / 재생/정지 / 다음 곡 / 음소거
-      - ["cmd-space", "ctrl-up", "ctrl-down", "i"]  # Spotlight / Mission Control / 앱 창 모아보기 / 화면축소
-      - ["ctrl-left", "ctrl-right", "cmd-c", "cmd-v"]  # 왼쪽 데스크톱 / 오른쪽 데스크톱 / cmd-C / cmd-V
+      - ["ctrl-up", "ctrl-up", "ctrl-left", "ctrl-right"]  # Mission Control / Mission Control / 화면 전환 / 화면 전환
+      - ["ctrl-down", "cmd-a", "cmd-c", "cmd-v"]  # 앱 창 모아보기 / cmd-A / cmd-C / cmd-V
     knobs:
       - ccw: "volumedown"  # 위 노브: 볼륨 작게
         press: "play"  # 재생/정지
